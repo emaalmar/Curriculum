@@ -1,5 +1,5 @@
 body {
-    background-color: rgb(245, 198, 110);
+    background-color: rgb(247, 238, 250);
 }
 
 /*Tipo bloque*/
@@ -46,8 +46,11 @@ p{
 }
 
 #Parrafo-1 {
-    background-color: aqua;
+    /*background-color: aqua;*/
     background-clip: border-box;
+    /*ESTO CAMBIA EL CONTENIDO*/
+    width: 200px;
+    height: 250px;
 }
 
 #Parrafo-2 {
@@ -66,3 +69,17 @@ h2{
     background-clip: text ;
     color:transparent;
 }
+
+span {
+    background-color: black;
+    color: yellow;
+    border: solid 5px burlywood; 
+    padding: 15px;
+    margin: 16px;
+    width: 200px;
+    height: 150px;
+    /*display: block;*/
+    display: inline-block;
+}
+
+
