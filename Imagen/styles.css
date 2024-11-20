@@ -167,3 +167,41 @@ section p {
   font-size: 1.1rem;
   line-height: 1.1;
   color: #555
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 20px 0;
+}
+
+/* Estilo para las celdas */
+th, td {
+  padding: 12px;
+  text-align: left;
+  border: 1px solid #ddd;
+}
+
+/* Fondo para las cabeceras */
+th {
+  background-color: #4CAF50;
+  color: white;
+}
+
+/* Alternar colores de filas */
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+tr:hover {
+  background-color: #ddd;
+}
+
+/* Estilo para las celdas con código */
+code {
+  background-color: #f4f4f4;
+  padding: 2px 5px;
+  border-radius: 4px;
+  font-family: 'Courier New', Courier, monospace;
+  color: #333;
+}
